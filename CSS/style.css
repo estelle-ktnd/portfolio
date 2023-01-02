@@ -2,7 +2,7 @@
 
 :root {
   --color-body: #333333;
-  --background-body: #ffffff;
+  --background-body: #E3DCD2;
 }
 
 * {
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: 'Poppins', sans-serif;
-  color: #000;
+  color: #100C0D;
   font-weight: 500;
   line-height: 1;
 }
@@ -136,7 +136,7 @@ section {
 }
 
 .header {
-  background: #FFFFFF;
+  background: #E3DCD2;
   border-bottom: 1px solid #EEE;
   position: sticky;
   top: 0;
@@ -290,8 +290,8 @@ section {
 }
 
 .hero {
-  background: #5b6c78;
-  color: #FFF;
+  background: #013328;
+  color: #E3DCD2;
   padding: 1rem 0 0 0;
 }
 
@@ -429,7 +429,7 @@ section {
 
 .skills .progressbar {
   background: #F5F5F5;
-  color: #FFF;
+  color: #E3DCD2;
   margin-bottom: 1rem;
 }
 
@@ -472,7 +472,7 @@ section {
 }
 
 .portfolio-filters a.active {
-  color: #FFF;
+  color: #E3DCD2;
   background: #5b6c78;
 }
 
@@ -559,7 +559,7 @@ section {
 }
 
 .card {
-  background: #FFF;
+  background: #E3DCD2;
   text-transform: uppercase;
   position: relative;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
@@ -591,7 +591,7 @@ section {
 
 .card__overlay a {
   font-size: 4.5rem;
-  color: #FFF;
+  color: #E3DCD2;
   flex: 1;
   display: flex;
   align-items: center;
@@ -623,7 +623,7 @@ section {
 .form .btn {
   border: none;
   background: var(--color-body);
-  color: #FFF;
+  color: #E3DCD2;
   width: auto;
   min-width: 160px;
   font-size: 2rem;
@@ -638,7 +638,7 @@ section {
 /* Footer */
 
 footer {
-  background: #000;
+  background: #100C0D;
   color: #EEE;
   text-align: center;
   font-size: 1.4rem;
@@ -662,8 +662,8 @@ footer .socials li {
 }
 
 footer .socials a {
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #E3DCD2;
+  border: 1px solid #E3DCD2;
   border-radius: 50%;
   padding: 1rem;
   width: 42px;
@@ -674,12 +674,8 @@ footer .socials a {
 }
 
 footer .socials a:hover {
-  background: #FFF;
+  background: #E3DCD2;
   color: var(--color-body);
-}
-
-.toto {
-  color: #555;
 }
 
 @media screen and (min-width:750px) {
@@ -711,61 +707,3 @@ footer .socials a:hover {
     transform: translateX(0);
   }
 }
-
-
-/* Blog */
-
-.blog h1 {
-  text-align: center;
-}
-
-.blog__text {
-  margin-bottom: 3rem;
-}
-
-.article__card {
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.article__img {
-  opacity: 0.9;
-}
-
-.article__card:hover img {
-  opacity: 1;
-}
-
-.stretched-link::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  content: "";
-}
-
-@media screen and (min-width:750px) {
-  .d-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2rem;
-  }
-
-  .content-grid {
-    display: grid;
-    grid-template-columns: 6fr 2fr;
-    grid-column-gap: 2rem;
-    grid-template-areas:
-      "article sidebar"
-  }
-
-  .article {
-    grid-area: article;
-  }
-
-  .sidebar {
-    grid-area: sidebar;
-  }
-} 
